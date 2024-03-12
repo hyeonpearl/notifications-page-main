@@ -84,10 +84,12 @@ header {
 }
 
 .mark-read {
-  cursor: pointer;
   color: var(--grayish-blue);
 }
-.mark-read:hover {
+.mark-read:hover,
+.accent:hover,
+.name:hover {
+  cursor: pointer;
   color: var(--blue);
 }
 
@@ -110,10 +112,6 @@ header {
 
 .accent {
   color: var(--dark-grayish-blue);
-}
-.accent:hover {
-  cursor: pointer;
-  color: var(--blue);
 }
 
 .date {
